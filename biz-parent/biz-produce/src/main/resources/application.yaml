@@ -1,0 +1,4 @@
+project-root:
+  path: /Users/liujie/jie6mm/no-bug/
+test:
+  file-path: ${project-root.path}common-parent/common-application-config/common/common.properties

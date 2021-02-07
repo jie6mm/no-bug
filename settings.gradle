@@ -1,0 +1,6 @@
+rootProject.name = 'no-bug'
+include 'common-parent',
+        'system-parent',
+        'business-parent',
+        'api-parent',
+        'test-parent'

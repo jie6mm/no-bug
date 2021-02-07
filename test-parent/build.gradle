@@ -1,7 +1,3 @@
-apply plugin: 'org.springframework.boot'
-
-dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+subprojects {
+    group = 'org.jie6mm.nobug.test'
 }

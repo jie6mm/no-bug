@@ -48,4 +48,8 @@ allprojects {
 	dependencies {
 
 	}
+
+	jar {
+		manifest.attributes provider: 'gradle'
+	}
 }

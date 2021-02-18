@@ -7,3 +7,5 @@ include 'common-parent',
             'biz-parent:biz-produce',
         'api-parent',
         'test-parent'
+
+includeFlat 'common-application-config', 'common-pojo'

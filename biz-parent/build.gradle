@@ -7,5 +7,6 @@ subprojects {
         implementation 'org.springframework.boot:spring-boot-starter'
         implementation 'org.springframework.boot:spring-boot-starter-web'
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
+        compile project (path: ':common-parent:common-application-config')
     }
 }
